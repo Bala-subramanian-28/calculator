@@ -1,0 +1,19 @@
+function addValue(numbers) {
+    var input = document.getElementById('input')
+    input.value += numbers
+}
+
+function clean() {
+    var input = document.getElementById('input')
+    input.value = ""
+}
+
+function result() {
+   var input = document.getElementById('input')
+   input.value = eval(input.value)
+}
+
+function cut() {
+    var input = document.getElementById('input')
+   input.value = input.value.slice(0,input.value.length -1)
+}
